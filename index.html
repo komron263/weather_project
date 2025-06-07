@@ -11,10 +11,13 @@
     <section class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name" spellcheck="false">
-            <button><img src="images/search.png" alt="Search"></button>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">
+            <p>Invalid City name</p>
         </div>
         <div class="weather">
-            <a href="#"><i class="fa-solid fa-cloud-sun-rain"></i></a>
+            <i class="fa-solid fa-cloud-sun-rain" id="weather-icon"></i>
             <h1 class="temp">22°C</h1>   
             <h2 class="city">New York</h2>
             <div class="details">
@@ -35,5 +38,6 @@
             </div>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
